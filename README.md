@@ -19,15 +19,19 @@ Automate farming Nodepay Network using proxies. Please use the bypass version. I
 - For Unix:
 - Auto just Copy and Paste
 ```bash
-Automatic curl -sL https://raw.githubusercontent.com/Bebenmahardika/Botben-Nodepay/main/install_bot.sh | sed '/screen/d' | sed 's/\r//' > install_bot.sh && chmod +x install_bot.sh && ./install_bot.sh
+curl -sL https://raw.githubusercontent.com/Bebenmahardika/Botben-Nodepay/main/install_bot.sh | sed '/screen/d' | sed 's/\r//' > install_bot.sh && chmod +x install_bot.sh && ./install_bot.sh
 ```
 - Manual
 ```bash
-apt install python3 python3-pip -y
+git clone https://github.com/Bebenmahardika/Botben-Nodepay
+```
+```bash
+pip3 install -r requirements.txt
 ```
 ```bash
 Python3 benskoy.py
 ```
+Just Follow The intruction in Benskoy.py
 ```
 # Operating status
 If the following log appears, it means it is running successfully.
