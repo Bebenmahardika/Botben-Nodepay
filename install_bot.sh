@@ -7,7 +7,7 @@ while :; do
     sleep 0.1         # Wait a bit before shifting the text
     text=$(echo "$text" | sed 's/^\(.\)\(.*\)/\2\1/')  # Shift the first character to the end
     if [ "${#text}" -eq 0 ]; then
-        text="Welcome to the Bot! This is your scrolling message."
+        text="ANJAYYYYYYYYYY."
     fi
 done &
 
