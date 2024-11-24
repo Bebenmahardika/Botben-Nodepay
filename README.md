@@ -16,12 +16,18 @@ Automate farming Nodepay Network using proxies. Please use the bypass version. I
 - The text that appears is your nodepay token and copy the text
 ### Component installation
 - Install Python For Windows: [Python](https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe)
-- AUTOMATIC curl -sL https://raw.githubusercontent.com/Bebenmahardika/Botben-Nodepay/main/install_bot.sh | sed '/screen/d' | sed 's/\r//' > install_bot.sh && chmod +x install_bot.sh && ./install_bot.sh
 - For Unix:
+- Auto just Copy and Paste
+```bash
+Automatic curl -sL https://raw.githubusercontent.com/Bebenmahardika/Botben-Nodepay/main/install_bot.sh | sed '/screen/d' | sed 's/\r//' > install_bot.sh && chmod +x install_bot.sh && ./install_bot.sh
+```
+- Manual
 ```bash
 apt install python3 python3-pip -y
 ```
-- Just Run Python3 benskoy.py
+```bash
+Python3 benskoy.py
+```
 ```
 # Operating status
 If the following log appears, it means it is running successfully.
