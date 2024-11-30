@@ -29,7 +29,7 @@ git clone https://github.com/Bebenmahardika/Botben-Nodepay
 pip3 install -r requirements.txt
 ```
 ```bash
-Python3 benskoy.py
+python3 benskoy.py
 ```
 Just Follow The intruction in Benskoy.py
 ```
